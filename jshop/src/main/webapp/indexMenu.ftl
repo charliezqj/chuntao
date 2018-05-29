@@ -34,6 +34,15 @@ body{
 <!-- 			style="position: fixed;top: 0px;text-align: right;border: 2px solid red;z-index: 10000;"> -->
 	<div class="container" style="min-height: 10px;margin-top:5px;margin-bottom:5px;border: 0px solid red;">
 		<div class="row">
+			<div class="col-xs-12" style="text-align: right;font-size: 14px;">
+                <a href="#">我的春桃</a> &emsp;
+                <a href="#">我的订单</a> &emsp;
+                <a href="#">春桃会员</a> &emsp;
+                <a href="#">下载APP</a> &emsp;
+                <a href="#">关于我们</a>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-xs-3">
 				<a href="${systemSetting().www}/index"><img style="max-height: 50px;" alt="myshop-logo" src="${systemSetting().log}"/></a>
 			</div>
@@ -108,7 +117,6 @@ body{
 		    	</div>
 			</div>
 		</div>
-		
 	</div>
 </div>
 		
