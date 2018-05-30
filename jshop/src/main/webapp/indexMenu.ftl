@@ -34,7 +34,7 @@ body{
 <!-- 			style="position: fixed;top: 0px;text-align: right;border: 2px solid red;z-index: 10000;"> -->
 	<div class="container" style="min-height: 10px;margin-top:5px;margin-bottom:5px;border: 0px solid red;">
 		<div class="row">
-			<div class="col-xs-12" style="text-align: right;font-size: 14px;">
+			<div class="col-xs-12" style="text-align: right;font-size: 14px;margin-bottom: 10px;">
                 <a href="#">我的春桃</a> &emsp;
                 <a href="#">我的订单</a> &emsp;
                 <a href="#">春桃会员</a> &emsp;
@@ -111,9 +111,9 @@ body{
 		          		</span>
 					</#if>
 
-		          	<div style="vertical-align: middle;margin-top: 10px;font-size: 18px;z-index: 0;">
-		          		<span class="glyphicon glyphicon-earphone"></span>&nbsp;<#--客服热线:-->${systemSetting().tel}
-		          	</div>
+		          	<#--<div style="vertical-align: middle;margin-top: 10px;font-size: 18px;z-index: 0;">
+		          		<span class="glyphicon glyphicon-earphone"></span>&nbsp;&lt;#&ndash;客服热线:&ndash;&gt;${systemSetting().tel}
+		          	</div>-->
 		    	</div>
 			</div>
 		</div>
