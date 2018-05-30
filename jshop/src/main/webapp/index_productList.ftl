@@ -5,7 +5,7 @@
 		<div class="alert alert-info" style="margin-bottom: 5px;margin-top: 5px;">
 			${title}
 			<a href="${basepath}/special/${queryType}.html" target="_blank">
-				<span style="float:right">[更多]</span>
+				<span style="float:right">全部</span>
 			</a>
 		</div>
 	</div>
